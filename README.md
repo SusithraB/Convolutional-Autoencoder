@@ -111,9 +111,12 @@ visualize_denoising(model, test_loader)
 ## OUTPUT
 
 ### Model Summary
-![image](https://github.com/user-attachments/assets/b5f866f8-aeb6-4ebb-98c4-7b039859c16c)
+![image](https://github.com/user-attachments/assets/112de91a-1ba0-42ad-aab5-640678687842)
+
 
 ### Original vs Noisy Vs Reconstructed Image
+
+![image](https://github.com/user-attachments/assets/b5f866f8-aeb6-4ebb-98c4-7b039859c16c)
 ![image](https://github.com/user-attachments/assets/4f6b6473-e76d-4a9d-ab2b-f7b759ec708e)
 
 
