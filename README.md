@@ -62,7 +62,8 @@ def train(model, loader, criterion, optimizer, epochs=5):
 
         avg_loss = running_loss / len(loader.dataset)
         print(f"Epoch [{epoch+1}/{epochs}], Loss: {avg_loss:.4f}")
-
+```
+```
 # Evaluate and visualize
 def visualize_denoising(model, loader, num_images=10):
     model.eval()
@@ -101,9 +102,9 @@ def visualize_denoising(model, loader, num_images=10):
 
     plt.tight_layout()
     plt.show()
+```
 
-
-
+```
 # Run training and visualization
 train(model, train_loader, criterion, optimizer, epochs=5)
 visualize_denoising(model, test_loader)
